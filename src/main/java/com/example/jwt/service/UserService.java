@@ -39,7 +39,7 @@ public class UserService {
         adminUser.setUserName("admin123");
         adminUser.setUserPassword(getEncodedPassword("admin@pass"));
         adminUser.setUserFirstName("admin");
-        adminUser.setUserLastName("admin");
+        adminUser.setUserLastName("123");
         Set<Role> adminRoles = new HashSet<>();
         adminRoles.add(adminRole);
         adminUser.setRole(adminRoles);
